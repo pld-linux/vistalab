@@ -1,0 +1,11 @@
+--- vistalab-3.1.5/src/vlframe.cpp.orig	2005-10-27 11:26:43.000000000 +0200
++++ vistalab-3.1.5/src/vlframe.cpp	2005-10-29 17:40:33.000000000 +0200
+@@ -188,7 +188,7 @@
+         wxSize(3,3), wxHORIZONTAL),wxSizerFlags(0).Expand().Border(wxALL,0));
+ 
+ #ifdef WXWIN_COMPATIBILITY_2_4
+-    m_topSizer->SetItemMinSize((unsigned int) 0,640,400);
++    m_topSizer->SetItemMinSize((size_t) 0,640,400);
+ #else
+     m_topSizer->SetItemMinSize(0,640,400);
+ #endif
