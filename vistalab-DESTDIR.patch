@@ -1,0 +1,20 @@
+--- vistalab-3.1.5/locale/Makefile.am.orig	2005-05-10 15:28:20.000000000 +0200
++++ vistalab-3.1.5/locale/Makefile.am	2005-10-29 12:59:28.175311480 +0200
+@@ -13,14 +13,14 @@
+ install: $(LOCALES)
+ 	for i in $(LOCALES); do \
+ 	  LOCALLANG=`echo $$i | sed -e 's/.mo//'`; \
+-	  $(mkinstalldirs) $(datadir)/locale/$$LOCALLANG/LC_MESSAGES ; \
+-	  $(INSTALL_DATA) $$i $(datadir)/locale/$$LOCALLANG/LC_MESSAGES/$(PACKAGE).mo; \
++	  $(mkinstalldirs) $(DESTDIR)$(datadir)/locale/$$LOCALLANG/LC_MESSAGES ; \
++	  $(INSTALL_DATA) $$i $(DESTDIR)$(datadir)/locale/$$LOCALLANG/LC_MESSAGES/$(PACKAGE).mo; \
+ 	done
+ 
+ uninstall:
+ 	for i in $(LOCALES) ; do \
+ 	  LOCALLANG=`echo $$i | sed -e 's/.mo//'`; \
+-	  rm -f $(datadir)/locale/$$LOCALLANG/LC_MESSAGES/$(PACKAGE).mo; \
++	  rm -f $(DESTDIR)$(datadir)/locale/$$LOCALLANG/LC_MESSAGES/$(PACKAGE).mo; \
+ 	done
+ 
+ EXTRA_DIST = de.po
