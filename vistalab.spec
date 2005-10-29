@@ -2,12 +2,13 @@ Summary:	VistaLab Image Processing Framework
 Summary(pl):	VistaLab - ¶rodowisko do przetwarzania obrazu
 Name:		vistalab
 Version:	3.1.5
-Release:	1
+Release:	2
 License:	VistaLab Public License v1.5 (GPL v2+ with exception, see COPYING)
 Group:		Applications/Graphics
 Source0:	http://dl.sourceforge.net/vistalab/%{name}-%{version}.tar.gz
 # Source0-md5:	357f2620c1f88d01be7c655ee800e761
 Patch0:		%{name}-DESTDIR.patch
+Patch1:		%{name}-types.patch
 URL:		http://vistalab.sourceforge.net/
 BuildRequires:	OpenGL-devel
 BuildRequires:	autoconf
@@ -82,6 +83,7 @@ Statyczne biblioteki VistaLab.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__libtoolize}
