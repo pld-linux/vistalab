@@ -1,5 +1,5 @@
 Summary:	VistaLab Image Processing Framework
-Summary(pl.UTF-8):   VistaLab - środowisko do przetwarzania obrazu
+Summary(pl.UTF-8):	VistaLab - środowisko do przetwarzania obrazu
 Name:		vistalab
 Version:	3.1.5
 Release:	2
@@ -54,7 +54,7 @@ przetwarzających obraz dziecinnie prostym.
 
 %package devel
 Summary:	Header files for VistaLab libraries
-Summary(pl.UTF-8):   Pliki nagłówkowe bibliotek VistaLab
+Summary(pl.UTF-8):	Pliki nagłówkowe bibliotek VistaLab
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	OpenGL-devel
@@ -70,7 +70,7 @@ Pliki nagłówkowe bibliotek VistaLab.
 
 %package static
 Summary:	Static VistaLab libraries
-Summary(pl.UTF-8):   Statyczne biblioteki VistaLab
+Summary(pl.UTF-8):	Statyczne biblioteki VistaLab
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
