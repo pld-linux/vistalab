@@ -1,5 +1,5 @@
 Summary:	VistaLab Image Processing Framework
-Summary(pl):	VistaLab - ∂rodowisko do przetwarzania obrazu
+Summary(pl.UTF-8):   VistaLab - ≈õrodowisko do przetwarzania obrazu
 Name:		vistalab
 Version:	3.1.5
 Release:	2
@@ -37,24 +37,24 @@ framework have to be known - they are built automatically via
 generative techniques. This feature makes developing new image
 processing modules a child's play.
 
-%description -l pl
-VistaLab to modularny szkielet do rozwijania algorytmÛw przetwarzania
-obrazu z minimalnym narzutem. Nowe wtyczki moøna ≥atwo rozpowszechniaÊ
-w postaci binarnej - w postaci bibliotek wspÛ≥dzielonych. W ten sposÛb
-bardzo ≥atwo moøna osi±gn±Ê reuøywalno∂Ê kodu. Co wiÍcej, kod do
-integrowania w≥asnych klas C++ we wtyczkÍ jest minimalny dziÍki
+%description -l pl.UTF-8
+VistaLab to modularny szkielet do rozwijania algorytm√≥w przetwarzania
+obrazu z minimalnym narzutem. Nowe wtyczki mo≈ºna ≈Çatwo rozpowszechniaƒá
+w postaci binarnej - w postaci bibliotek wsp√≥≈Çdzielonych. W ten spos√≥b
+bardzo ≈Çatwo mo≈ºna osiƒÖgnƒÖƒá reu≈ºywalno≈õƒá kodu. Co wiƒôcej, kod do
+integrowania w≈Çasnych klas C++ we wtyczkƒô jest minimalny dziƒôki
 programowaniu generatywnemu. Nie tylko pozwala to programistom
-skoncentrowaÊ siÍ na implementowaniu nowej funkcjonalno∂ci w
+skoncentrowaƒá siƒô na implementowaniu nowej funkcjonalno≈õci w
 dziedzinie przetwarzania obrazu (a nie np. pisaniu okien dialogowych
-do konfiguracji), ale takøe pozwala na utrzymywanie wtyczek w
-bezpieczny sposÛb, jako øe nie ma potrzeby znajomo∂ci struktur danych
-definiowanych przez ∂rodowisko - s± one tworzone automatycznie poprzez
-techniki generatywne. Ta cecha czyni tworzenie nowych modu≥Ûw
-przetwarzaj±cych obraz dziecinnie prostym.
+do konfiguracji), ale tak≈ºe pozwala na utrzymywanie wtyczek w
+bezpieczny spos√≥b, jako ≈ºe nie ma potrzeby znajomo≈õci struktur danych
+definiowanych przez ≈õrodowisko - sƒÖ one tworzone automatycznie poprzez
+techniki generatywne. Ta cecha czyni tworzenie nowych modu≈Ç√≥w
+przetwarzajƒÖcych obraz dziecinnie prostym.
 
 %package devel
 Summary:	Header files for VistaLab libraries
-Summary(pl):	Pliki nag≥Ûwkowe bibliotek VistaLab
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe bibliotek VistaLab
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	OpenGL-devel
@@ -65,19 +65,19 @@ Requires:	wxGTK2-devel >= 2.6.0
 %description devel
 Header files for VistaLab libraries.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe bibliotek VistaLab.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe bibliotek VistaLab.
 
 %package static
 Summary:	Static VistaLab libraries
-Summary(pl):	Statyczne biblioteki VistaLab
+Summary(pl.UTF-8):   Statyczne biblioteki VistaLab
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static VistaLab libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki VistaLab.
 
 %prep
