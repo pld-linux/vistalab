@@ -13,8 +13,7 @@ URL:		http://vistalab.sourceforge.net/
 BuildRequires:	OpenGL-devel
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1:1.6.1
-BuildRequires:	boost-bind-devel
-BuildRequires:	boost-utility-devel
+BuildRequires:	boost-devel >= 1.35.0
 BuildRequires:	gettext-devel
 BuildRequires:	gl2ps-devel
 BuildRequires:	libtool >= 2:1.5
