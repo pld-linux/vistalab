@@ -14,7 +14,7 @@ BuildRequires:	OpenGL-devel
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1:1.6.1
 BuildRequires:	boost-devel >= 1.35.0
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gl2ps-devel
 BuildRequires:	libtool >= 2:1.5
 BuildRequires:	libxml2-devel >= 2.0
